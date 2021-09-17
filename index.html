@@ -23,7 +23,7 @@
                 userStore.appendChild(p);      
             };
         })
-        function getUserDetails(userId){
+        function getUserDetail(userId){
             fetch('https://jsonplaceholder.typicode.com/users/${userId}')
             .then(response => response.json)
             .then(data =>{
